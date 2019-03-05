@@ -62,7 +62,7 @@ function plugX(x) {
 
 
 function zoomIn() {
-	if(K<150){
+	if(k<150){
 		ctx.clearRect(0,0,w,h)
 		k+=2;
 		graphpaper();
